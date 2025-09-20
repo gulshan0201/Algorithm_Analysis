@@ -23,9 +23,9 @@ def topologicalSort(adj, V):
     while stack:
         print(stack.pop(), end=" ")
 # Number of nodes
-V = 6
+V = 8
 # Edges
-edges = [[5, 0], [4, 0], [4, 1], [3, 1], [2, 3], [5, 2]]
+edges = [[7,6], [7,5], [5,4], [5,2], [6,3], [6,4], [2,1], [3,1],[1,0]]
 # Graph represented as an adjacency list
 adj = [[] for _ in range(V)]
 for i in edges:
